@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane fx:id="pane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="920.0" style="-fx-background-color: #b3ffb3;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="layer_presentation.Controller.ControllerUser">
+    <children>
+
+        <TextArea fx:id="matchAreaUser" layoutX="20.0" layoutY="7.0" prefHeight="300.0" prefWidth="700.0" editable="false"/>
+        <Button fx:id="updateGButton" layoutX="750.0" layoutY="8.0" prefHeight="16.0" prefWidth="140.0" mnemonicParsing="false" onAction="#updateGames" text="UpdateGame" />
+        <Button fx:id="showGButton" layoutX="750.0" layoutY="50.0" prefHeight="16.0" prefWidth="140.0" mnemonicParsing="false" onAction="#showMatches" text="ShowGames" />
+
+        <Label layoutX="750.0" layoutY="100.0" text="Update Match Number" />
+        <TextField fx:id="upMatchNr" layoutX="750.0" layoutY="120.0" prefHeight="16.0" prefWidth="140.0" promptText="UpdateMatchNumber:" />
+        <Label layoutX="750.0" layoutY="170.0" text="Update Set Number" />
+        <TextField fx:id="upSetNr" layoutX="750.0" layoutY="190.0" prefHeight="16.0" prefWidth="140.0" promptText="UpdateSetNumber:" />
+        <Label layoutX="750.0" layoutY="240.0" text="Update Player1 Games" />
+        <TextField fx:id="upPlayer1Games" layoutX="750.0" layoutY="260.0" prefHeight="16.0" prefWidth="140.0" promptText="Player1Games" />
+        <Label layoutX="750.0" layoutY="310.0" text="Update Player2 Games" />
+        <TextField fx:id="upPlayer2Games" layoutX="750.0" layoutY="330.0" prefHeight="16.0" prefWidth="140.0" promptText="Player2Games" />
+
+    </children>
+    <padding>
+        <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+    </padding>
+</AnchorPane>

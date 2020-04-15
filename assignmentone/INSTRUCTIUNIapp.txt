@@ -1,0 +1,55 @@
+INSTRUCTIUNILE DE FOLOSIRE ALE APLICATIEI:
+*BETTER SAFE THAN SORRY*
+
+Pentru prima rulare a aplicatiei si partea cu initializarea bazei de date, am scris in GUI comentariu cu detaliile.
+
+Pt login ca USER:
+exemplu: login cu Federer: mail@federer,  pass: federer, role: user
+Butonul ShowGames arata toate meciurile iar pentru update match trebuie scris in primul textfield al catelea meci vrei sa
+il modifici (ex: 2, daca vrei sa modifici meciul 2), apoi numarul setului in care vrei sa modifici scorul(ex: 3, pt 
+modificare set 3, oricum nu te lasa sa modifici scorul intr-un set care e deja terminat), iar in casutele de mai jos pui
+scorul la game uri si apesi butonul UpdateGame.
+
+Pt login ca ADMIN:
+exemplu: login cu Vlad: mail@vlad, pass: vlad, role: admin
+
+In partea de jos a ferestrei poti face crud ul pe playeri. ShowPlayers si ii vezi pe toti, pt AddPlayer scrii in 
+textfields datele aferente si apesi AddPlayer, pt edit player scrii in casuta de nume numele playerului la care vrei
+sa ii faci update la mail sau parola sau ambele, iar apoi in casutele de mail si parola introduci mailul si parola si
+apoi apesi EditPlayer. Pentru a sterge un jucator, ii scrii numele in casuta de nume si apesi DeletePlayer.
+
+In partea de sus a ferestrei poti face crud pe meciuri. ShowMatches si le vezi pe toate, pt a adauga un meci nou te uiti
+jos in caseta de playeri sa vezi care sunt playerii existenti in club, si scrii numele lor in casuta de Player1 pt primul player
+si in casuta de Player2 pt al doilea player si dai Add Match. Pt a sterge un meci, intoruci in prima casuta(UpdateMatchNumber)
+numarul meciului pe care vrei sa il stergi(ex: 2 pt meciul 2) si apesi Delete Match. Daca vrei sa creezi un set nou (0-0) pt
+un anumit meci, atunci intoruci in prima casuta(UpdateMatchNumber) numarul meciului dorit si apesi Create New Set. Pentru
+a updata scorul unui meci, e exact ca la user, scrii numarul meciului dorit in prima casuta, numarul setului dorit in a doua
+casuta, game pt player1 in casuta Player1Games si game pt player2 in casuta Player2Games si apesi butonul Update Score. Finally, 
+daca vrei sa generezi un raport pt un meci, introduci in casuta reports txt pt raport in txt sau pdf pt raport in pdf si dai pe
+Match Report si reports se genereaza automat in folderul assignmentone.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

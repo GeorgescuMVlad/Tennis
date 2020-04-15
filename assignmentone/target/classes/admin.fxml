@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane fx:id="pane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="750.0" prefWidth="1160.0" style="-fx-background-color: #ffc299;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="layer_presentation.Controller.ControllerAdmin">
+    <children>
+
+
+        <TextArea fx:id="matchArea" layoutX="20.0" layoutY="7.0" prefHeight="300.0" prefWidth="700.0" />
+
+        <Button fx:id="showMButton" layoutX="910.0" layoutY="8.0" prefHeight="16.0" prefWidth="120.0" mnemonicParsing="false" onAction="#showMatches" text="Show Matches" />
+        <Button fx:id="addMButton" layoutX="910.0" layoutY="48.0" prefHeight="16.0" prefWidth="120.0" mnemonicParsing="false" onAction="#createMatch" text="Add Match" />
+        <Button fx:id="deleteMButton" layoutX="910.0" layoutY="88.0" prefHeight="16.0" prefWidth="120.0" mnemonicParsing="false" onAction="#deleteMatch" text="Delete Match" />
+        <Button fx:id="createSetButton" layoutX="910.0" layoutY="128.0" prefHeight="16.0" prefWidth="120.0" mnemonicParsing="false" onAction="#createSet" text="Create New Set" />
+        <Button fx:id="updateScoreButton" layoutX="910.0" layoutY="168.0" prefHeight="16.0" prefWidth="120.0" mnemonicParsing="false" onAction="#updateGames" text="Update Score" />
+        <Button fx:id="matchReportButton" layoutX="910.0" layoutY="208.0" prefHeight="16.0" prefWidth="120.0" mnemonicParsing="false" onAction="#generateReport" text="Match Report" />
+
+        <Label layoutX="1050.0" layoutY="268.0" text="Report: pdf or txt" />
+        <TextField fx:id="repo" layoutX="1050.0" layoutY="288.0" prefHeight="16.0" prefWidth="60.0" promptText="Reports" />
+
+
+        <Label layoutX="750.0" layoutY="8.0" text="Update Match Number" />
+        <TextField fx:id="upMatchNrA" layoutX="750.0" layoutY="28.0" prefHeight="16.0" prefWidth="120.0" promptText="UpdateMatchNumber:" />
+        <Label layoutX="750.0" layoutY="68.0" text="Update Set Number" />
+        <TextField fx:id="upSetNrA" layoutX="750.0" layoutY="88.0" prefHeight="16.0" prefWidth="120.0" promptText="UpdateSetNumber:" />
+        <Label layoutX="750.0" layoutY="138.0" text="Update Player1 Games" />
+        <TextField fx:id="upPlayer1GamesA" layoutX="750.0" layoutY="158.0" prefHeight="16.0" prefWidth="120.0" promptText="Player1Games" />
+        <Label layoutX="750.0" layoutY="208.0" text="Update Player2 Games" />
+        <TextField fx:id="upPlayer2GamesA" layoutX="750.0" layoutY="228.0" prefHeight="16.0" prefWidth="120.0" promptText="Player2Games" />
+
+        <Label layoutX="750.0" layoutY="268.0" text="Insert Player1 name" />
+        <TextField fx:id="insPlayer1NameA" layoutX="750.0" layoutY="288.0" prefHeight="16.0" prefWidth="120.0" promptText="Player1" />
+        <Label layoutX="910.0" layoutY="268.0" text="Insert Player2 name" />
+        <TextField fx:id="insPlayer2NameA" layoutX="910.0" layoutY="288.0" prefHeight="16.0" prefWidth="120.0" promptText="Player2" />
+
+
+
+        <TextArea fx:id="playersArea" layoutX="20.0" layoutY="400.0" prefHeight="300.0" prefWidth="700.0" editable="false"/>
+
+        <Button fx:id="showPlayersPButton" layoutX="770.0" layoutY="400.0" prefHeight="16.0" prefWidth="120.0" mnemonicParsing="false" onAction="#showPlayers" text="ShowPlayers" />
+        <Button fx:id="addPButton" layoutX="770.0" layoutY="440.0" prefHeight="16.0" prefWidth="120.0" mnemonicParsing="false" onAction="#addPlayer" text="AddPlayer" />
+        <Button fx:id="editPButton" layoutX="770.0" layoutY="480.0" prefHeight="16.0" prefWidth="120.0" mnemonicParsing="false" onAction="#updatePlayer" text="EditPlayer" />
+        <Button fx:id="deletePButton" layoutX="770.0" layoutY="520.0" prefHeight="16.0" prefWidth="120.0" mnemonicParsing="false" onAction="#deletePlayer" text="DeletePlayer" />
+
+        <TextField fx:id="insPlayerName" layoutX="770.0" layoutY="580.0" prefHeight="16.0" prefWidth="120.0" promptText="PlayerName" />
+        <TextField fx:id="insPlayerPassword" layoutX="770.0" layoutY="620.0" prefHeight="16.0" prefWidth="120.0" promptText="PlayerPassword" />
+        <TextField fx:id="insPlayerMail" layoutX="770.0" layoutY="660.0" prefHeight="16.0" prefWidth="120.0" promptText="PlayerMail" />
+
+
+    </children>
+    <padding>
+        <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+    </padding>
+</AnchorPane>
